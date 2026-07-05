@@ -58,7 +58,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    ApertureLaurel
+    ApertureLaurel \  
+    SimpleGallery-legacy \
+    simple-calculator
 
 # Fastboot
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(DEVICE_PATH)/fastboot-info.txt
